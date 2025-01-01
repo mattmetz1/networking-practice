@@ -1,0 +1,1 @@
+This is a simple implementation of sending emails with python using SMTB and SSL. The hardest part of this is creating and setting up an new email since google changed the security around logins. By enabling MFA on the google account and adding an apporved app which uses a unique password.

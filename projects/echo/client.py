@@ -37,7 +37,7 @@ try:
         s.send(MESSAGE)
 
         # receive response
-        print("Echoing:",s.recv(1024))
+        print("Echoing:",s.recv(1024).decode())
 
     # close the connection
     print("EXIT received, closing connection")

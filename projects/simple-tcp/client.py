@@ -24,6 +24,7 @@ except socket.error as e:
 try:
     # receive data from the server
     print("received from server:\n",s.recv(1024))
+    s.send(b"hello")
 
     s.close()
 

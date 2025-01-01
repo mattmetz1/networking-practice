@@ -35,6 +35,8 @@ try:
         # send response to client
         c.send(b'Thank you for connecting')
 
+        print("client said",c.recv(1024))
+
         # close connection with client
         c.close()
 
